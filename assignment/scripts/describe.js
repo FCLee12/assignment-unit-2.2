@@ -189,11 +189,28 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// FIX
+// const denotes a constant, not a variable, so this should be:
+// let minAge = 21;
 const minAge = 21;
 
+// (Optional)FIX
+// The code as is, is technically correct because it's still testing if age is greater than or equal to minAge. The code is simply flipped backwards.
+// However, it's not exactly as written by the directions since:
+// <= means less than or equal to, the correct operator is >= which is greater than or equal to.
+// Therefore if the goal is to be write it per the directions it should be:
+// if(age >= minAge) {
 if(minAge <= age) {
+  // FIX
+  // The code that goes in here is what triggers when the condition in the paranthesis is true.
+  // Given that the goal is to have 'enter' be console logged to the console, the code should be:
+  // console.log( 'enter' );
   console.log('no entry');
 } else {
+  // FIX
+  // Assuming your goal is to have two different outcomes based on whether or not your conditional is true, the string that is console logged here should be different than the one you give to the console log when the conditional is true.
+  // You can simply take the incorrect console log string from above and insert it here instead to get your desired result per the description.
+  // console.log ( 'no entry' );
   console.log('enter');
 }
 */
