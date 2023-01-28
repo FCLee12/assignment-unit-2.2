@@ -140,12 +140,24 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
 /*
+// FIX
+// colorOne should be equal to string value 'blue'
+// Should be: let colorOne = 'blue';
 let colorOne = 'red';
+// FIX
+// colorTwo should be equal to string value 'red'
+// Should be: let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX
+  // You need to adjust the value of variable colorTwo to 'purple' as well.
+  // Should be:
+  // colorOne = 'purple';
+  // colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -156,8 +168,16 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX
+// const denotes a constant, not a variable, so this should be:
+// let time = 4;
 const time = 4;
 
+// FIX
+// || means or, meaning if either condition is correct then proceed with the code in the {}.
+// && means and, meaning both conditions must be true to proceed with the code in the {}.
+// Therefore it should be:
+// if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
