@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'name' and assign it a string value, 'Dane'.
+// We check if the variable 'name' has the same value type and value as 'Mary'.
+// If 'name' has the same value type and value as 'Mary', we console log 'Hi, Mary!'.
+// If 'name' does not have the same value type and value as 'Mary', we console log 'How do you do?'.
+// The output in the console would be 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'secret'.
+// We create a variable called 'code' and assign it a number value of 123.
+// We check if 'code' has the same value type and value as the number 123.
+// If it does, we assign the string value 'super' to the variable 'secret' and we assign the product of the value of variable 'code' multiplied by 2 to the variable 'code'.
+// We check if the value of variable 'code' is greater than 250.
+// If it is, we assign the string value 'duper' to variable 'secret'.
+// Lastly, we console log the variable 'secret' which would output 'super'.
 
 //CODE
 /*
@@ -70,10 +74,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create variable 'isStudent' and assign it boolean value 'true'.
+// We create variable 'age' and assign it number value 34.
+// We create variable 'zip' and assign it number value 55407.
+// We check if the value and value type of variable 'isStudent' is equal to boolean value 'true' and if the value of variable 'zip' is greater than 80000. 
+// If both conditions are correct, we will console log 'You're a student on the West Coast!'.
+// If neither are correct, we check if the value and value type of variable 'isStudent' is equal to boolean value 'false' or the value of variable 'age' is less than 30.
+// If either condition is correct, we will console log 'What are your hobbies?'.
+// If neither are correct, we check if the value and value type of variable 'isStudent' is equal to boolean value 'true'.
+// If correct, we will console log 'Welcome to Prime!'.
+// If incorrect, we will console log 'How about the weather?'.
+// The output in the console will be 'Welcome to Prime!'
 
 //CODE
 /*
